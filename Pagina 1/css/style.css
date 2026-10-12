@@ -1,0 +1,44 @@
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 12px;
+  margin: 8px;
+}
+
+.titulo {
+  background-color: #6fdaf5;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  padding: 4px 0;
+  margin: 8px 0;
+}
+
+/* Lista no ordenada: circulos, y cuadrados en el segundo nivel */
+.no-ordenada {
+  list-style-type: circle;
+}
+.no-ordenada ul {
+  list-style-type: square;
+}
+
+/* Lista ordenada */
+.ordenada {
+  list-style-type: decimal;
+}
+.ordenada ul {
+  list-style-type: square;
+}
+.ordenada ol {
+  list-style-type: lower-alpha;
+}
+.ordenada ol ol {
+  list-style-type: lower-roman;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #666;
+  margin: 8px 0;
+}

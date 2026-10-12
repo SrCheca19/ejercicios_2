@@ -1,0 +1,53 @@
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 14px 0 14px 22px;
+  border-left: 4px solid #000;
+  min-height: 100vh;
+  box-sizing: border-box;
+  /* Fondo decorativo generado con CSS (sustituye la imagen del enunciado) */
+  background-color: #c9cbe6;
+  background-image:
+    radial-gradient(circle, #000 0 18%, transparent 20%),
+    repeating-linear-gradient(90deg, transparent 0 120px, #000 120px 135px);
+  background-size: 120px 120px, 100% 100%;
+}
+
+.bloque-azul {
+  background-color: rgba(100, 118, 140, 0.9);
+  color: #fff;
+  padding: 10px 10px 4px;
+  margin-right: 8px;
+}
+.bloque-azul h2 {
+  font-size: 19px;
+  margin: 4px 0 14px;
+}
+.bloque-azul p {
+  font-size: 11px;
+  margin: 0 0 10px;
+}
+
+.bloque-amarillo {
+  background-color: rgba(235, 232, 175, 0.9);
+  color: #000;
+  font-size: 11px;
+  padding: 8px 10px;
+  margin: 24px 8px 0 0;
+}
+
+/* Etiquetas span */
+.rosa {
+  background-color: #f26df2;
+}
+.negro {
+  background-color: #000;
+  color: #fff;
+  font-family: Impact, Arial, sans-serif;
+  font-weight: bold;
+}
+.cursiva {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
